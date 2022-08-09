@@ -1,0 +1,84 @@
+body{
+    margin: 0;
+}
+
+.top-container{
+   background-image: url("https://images.unsplash.com/photo-1482440308425-276ad0f28b19?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
+   height: 100vh;
+   background-size: contain;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+}
+
+.top-container h1{
+    color: darkturquoise;
+    font-size: 50px;
+    font-family:'Times New Roman', Times, serif;
+    letter-spacing: 3px;
+
+}
+.navbar img{
+    border-radius: 600px;
+    width: 55px;
+    height: 65px;
+    
+}
+
+.navbar{
+    display: flex;
+    background-color: lightslategray;
+    position: fixed;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, .3);
+    transition: background-color 0.4s;
+}
+
+.navbar h3{
+    margin-left: -940px;
+    font-family: sans-serif;
+    font-size: 22px;
+    color: white;
+}
+.navbar ul{
+    display: flex;
+    list-style-type: none;
+}
+.navbar ul li a{
+    text-decoration: none;
+    margin: 0 10px;
+    color: white;
+    font-size: 23px;
+}
+.navbar ul li a:hover  {
+    color: red;
+}
+
+.navbar ul li{
+    display: inline-block;
+}
+
+
+
+.text{
+    font-size: 20px;
+    margin: 50px 5%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.navbar .active {
+    background-color: black;
+
+}
+
+.navbar .active ul li a{
+    color: white;
+}
+.bottom-container{
+    background-color: aqua;
+    margin-top: -50px;
+    margin-bottom: -40px;
+}
